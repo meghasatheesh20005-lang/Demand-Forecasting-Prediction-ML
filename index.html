@@ -1,0 +1,1660 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>
+        DemandIQ | Demand Forecasting
+    </title>
+
+
+    <!-- Google Font -->
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+
+    <!-- Font Awesome -->
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+
+    <!-- CSS -->
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     NAVBAR
+===================================================== -->
+
+<nav class="navbar">
+
+    <div class="nav-container">
+
+
+        <div class="logo">
+
+            <div class="logo-icon">
+
+                <i class="fa-solid fa-chart-line"></i>
+
+            </div>
+
+            <span>
+                Demand<span>IQ</span>
+            </span>
+
+        </div>
+
+
+        <div class="nav-links">
+
+            <a href="#home">
+                Home
+            </a>
+
+            <a href="#forecast">
+                Forecast
+            </a>
+
+            <a href="#features">
+                Features
+            </a>
+
+            <a href="#about">
+                About
+            </a>
+
+        </div>
+
+
+        <a href="#forecast"
+           class="nav-button">
+
+            Predict Now
+
+        </a>
+
+
+    </div>
+
+</nav>
+
+
+
+<!-- =====================================================
+     HERO SECTION
+===================================================== -->
+
+<section class="hero"
+         id="home">
+
+    <div class="hero-container">
+
+
+        <div class="hero-content">
+
+
+            <div class="hero-badge">
+
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+
+                AI-Powered Demand Intelligence
+
+            </div>
+
+
+            <h1>
+
+                Predict Demand.
+                <br>
+
+                <span>Plan Smarter.</span>
+
+            </h1>
+
+
+            <p>
+
+                Make data-driven decisions with our
+                machine learning powered demand
+                forecasting system.
+
+            </p>
+
+
+            <div class="hero-buttons">
+
+
+                <a href="#forecast"
+                   class="primary-button">
+
+                    Start Forecasting
+
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </a>
+
+
+                <a href="#about"
+                   class="secondary-button">
+
+                    Learn More
+
+                </a>
+
+
+            </div>
+
+
+            <div class="hero-trust">
+
+
+                <div class="trust-item">
+
+                    <i class="fa-solid fa-circle-check"></i>
+
+                    Machine Learning
+
+                </div>
+
+
+                <div class="trust-item">
+
+                    <i class="fa-solid fa-circle-check"></i>
+
+                    Data Driven
+
+                </div>
+
+
+                <div class="trust-item">
+
+                    <i class="fa-solid fa-circle-check"></i>
+
+                    Fast Prediction
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- HERO IMAGE -->
+
+        <div class="hero-image">
+
+            <div class="image-glow"></div>
+
+
+            <img
+                src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=900&q=85"
+                alt="Data Analytics Dashboard"
+            >
+
+
+            <div class="floating-card card-one">
+
+
+                <div class="floating-icon blue">
+
+                    <i class="fa-solid fa-chart-column"></i>
+
+                </div>
+
+
+                <div>
+
+                    <small>
+                        Demand Trend
+                    </small>
+
+                    <strong>
+                        +24.8%
+                    </strong>
+
+                </div>
+
+
+            </div>
+
+
+
+            <div class="floating-card card-two">
+
+
+                <div class="floating-icon green">
+
+                    <i class="fa-solid fa-arrow-trend-up"></i>
+
+                </div>
+
+
+                <div>
+
+                    <small>
+                        Prediction
+                    </small>
+
+                    <strong>
+                        Ready
+                    </strong>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     STATISTICS
+===================================================== -->
+
+<section class="stats">
+
+    <div class="stats-container">
+
+
+        <div class="stat-card">
+
+            <div class="stat-icon">
+
+                <i class="fa-solid fa-database"></i>
+
+            </div>
+
+
+            <div>
+
+                <h3>
+                    76K+
+                </h3>
+
+                <p>
+                    Data Records
+                </p>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="stat-card">
+
+            <div class="stat-icon">
+
+                <i class="fa-solid fa-layer-group"></i>
+
+            </div>
+
+
+            <div>
+
+                <h3>
+                    13+
+                </h3>
+
+                <p>
+                    Features
+                </p>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="stat-card">
+
+            <div class="stat-icon">
+
+                <i class="fa-solid fa-brain"></i>
+
+            </div>
+
+
+            <div>
+
+                <h3>
+                    ML
+                </h3>
+
+                <p>
+                    Random Forest
+                </p>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="stat-card">
+
+            <div class="stat-icon">
+
+                <i class="fa-solid fa-bullseye"></i>
+
+            </div>
+
+
+            <div>
+
+                <h3>
+                    86.79%
+                </h3>
+
+                <p>
+                    Model Score
+                </p>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     FORECAST SECTION
+===================================================== -->
+
+<section class="forecast-section"
+         id="forecast">
+
+
+    <div class="section-heading">
+
+        <span>
+            DEMAND PREDICTION
+        </span>
+
+
+        <h2>
+            Forecast Your Product Demand
+        </h2>
+
+
+        <p>
+
+            Enter product and market information
+            to generate a demand prediction.
+
+        </p>
+
+    </div>
+
+
+
+    <div class="forecast-wrapper">
+
+
+        <!-- =================================================
+             FORM CARD
+        ================================================== -->
+
+        <div class="forecast-card">
+
+
+            <div class="card-header">
+
+
+                <div>
+
+                    <h3>
+                        Prediction Details
+                    </h3>
+
+                    <p>
+                        Enter the required information
+                    </p>
+
+                </div>
+
+
+                <div class="header-icon">
+
+                    <i class="fa-solid fa-sliders"></i>
+
+                </div>
+
+
+            </div>
+
+
+
+            <form action="/predict"
+                  method="POST">
+
+
+                <!-- PRODUCT INFORMATION -->
+
+                <div class="form-section-title">
+
+                    <i class="fa-solid fa-box"></i>
+
+                    Product Information
+
+                </div>
+
+
+                <div class="input-grid">
+
+
+                    <!-- CATEGORY -->
+
+                    <div class="input-group">
+
+                        <label>
+                            Category
+                        </label>
+
+
+                        <div class="input-wrapper">
+
+                            <i class="fa-solid fa-tag"></i>
+
+
+                            <select name="category"
+                                    required>
+
+                                <option value="">
+                                    Select Category
+                                </option>
+
+                                <option value="Electronics">
+                                    Electronics
+                                </option>
+
+                                <option value="Clothing">
+                                    Clothing
+                                </option>
+
+                                <option value="Food">
+                                    Food
+                                </option>
+
+                                <option value="Furniture">
+                                    Furniture
+                                </option>
+
+                            </select>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- REGION -->
+
+                    <div class="input-group">
+
+                        <label>
+                            Region
+                        </label>
+
+
+                        <div class="input-wrapper">
+
+                            <i class="fa-solid fa-location-dot"></i>
+
+
+                            <select name="region"
+                                    required>
+
+                                <option value="">
+                                    Select Region
+                                </option>
+
+                                <option value="North">
+                                    North
+                                </option>
+
+                                <option value="South">
+                                    South
+                                </option>
+
+                                <option value="East">
+                                    East
+                                </option>
+
+                                <option value="West">
+                                    West
+                                </option>
+
+                            </select>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- PRICE -->
+
+                    <div class="input-group">
+
+                        <label>
+                            Product Price
+                        </label>
+
+
+                        <div class="input-wrapper">
+
+                            <i class="fa-solid fa-indian-rupee-sign"></i>
+
+
+                            <input
+                                type="number"
+                                name="price"
+                                step="0.01"
+                                placeholder="Enter price"
+                                required
+                            >
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- DISCOUNT -->
+
+                    <div class="input-group">
+
+                        <label>
+                            Discount
+                        </label>
+
+
+                        <div class="input-wrapper">
+
+                            <i class="fa-solid fa-percent"></i>
+
+
+                            <input
+                                type="number"
+                                name="discount"
+                                step="0.01"
+                                placeholder="Enter discount"
+                                required
+                            >
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- COMPETITOR PRICE -->
+
+                    <div class="input-group">
+
+                        <label>
+                            Competitor Pricing
+                        </label>
+
+
+                        <div class="input-wrapper">
+
+                            <i class="fa-solid fa-scale-balanced"></i>
+
+
+                            <input
+                                type="number"
+                                name="competitor_pricing"
+                                step="0.01"
+                                placeholder="Competitor price"
+                                required
+                            >
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+
+                <!-- MARKET INFORMATION -->
+
+                <div class="form-section-title">
+
+                    <i class="fa-solid fa-chart-pie"></i>
+
+                    Market Conditions
+
+                </div>
+
+
+                <div class="input-grid">
+
+
+                    <!-- WEATHER -->
+
+                    <div class="input-group">
+
+                        <label>
+                            Weather Condition
+                        </label>
+
+
+                        <div class="input-wrapper">
+
+                            <i class="fa-solid fa-cloud-sun"></i>
+
+
+                            <select name="weather"
+                                    required>
+
+                                <option value="">
+                                    Select Weather
+                                </option>
+
+                                <option value="Sunny">
+                                    Sunny
+                                </option>
+
+                                <option value="Rainy">
+                                    Rainy
+                                </option>
+
+                                <option value="Cloudy">
+                                    Cloudy
+                                </option>
+
+                            </select>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- PROMOTION -->
+
+                    <div class="input-group">
+
+                        <label>
+                            Promotion
+                        </label>
+
+
+                        <div class="input-wrapper">
+
+                            <i class="fa-solid fa-bullhorn"></i>
+
+
+                            <select name="promotion"
+                                    required>
+
+                                <option value="">
+                                    Select
+                                </option>
+
+                                <option value="Yes">
+                                    Yes
+                                </option>
+
+                                <option value="No">
+                                    No
+                                </option>
+
+                            </select>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- SEASON -->
+
+                    <div class="input-group">
+
+                        <label>
+                            Seasonality
+                        </label>
+
+
+                        <div class="input-wrapper">
+
+                            <i class="fa-solid fa-calendar-days"></i>
+
+
+                            <select name="seasonality"
+                                    required>
+
+                                <option value="">
+                                    Select Season
+                                </option>
+
+                                <option value="Spring">
+                                    Spring
+                                </option>
+
+                                <option value="Summer">
+                                    Summer
+                                </option>
+
+                                <option value="Autumn">
+                                    Autumn
+                                </option>
+
+                                <option value="Winter">
+                                    Winter
+                                </option>
+
+                            </select>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- EPIDEMIC -->
+
+                    <div class="input-group">
+
+                        <label>
+                            Epidemic
+                        </label>
+
+
+                        <div class="input-wrapper">
+
+                            <i class="fa-solid fa-virus"></i>
+
+
+                            <select name="epidemic"
+                                    required>
+
+                                <option value="">
+                                    Select
+                                </option>
+
+                                <option value="Yes">
+                                    Yes
+                                </option>
+
+                                <option value="No">
+                                    No
+                                </option>
+
+                            </select>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+
+                <!-- DATE INFORMATION -->
+
+                <div class="form-section-title">
+
+                    <i class="fa-solid fa-calendar"></i>
+
+                    Date Information
+
+                </div>
+
+
+                <div class="input-grid">
+
+
+                    <!-- YEAR -->
+
+                    <div class="input-group">
+
+                        <label>
+                            Year
+                        </label>
+
+
+                        <div class="input-wrapper">
+
+                            <i class="fa-solid fa-calendar"></i>
+
+
+                            <input
+                                type="number"
+                                name="year"
+                                value="2026"
+                                required
+                            >
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- MONTH -->
+
+                    <div class="input-group">
+
+                        <label>
+                            Month
+                        </label>
+
+
+                        <div class="input-wrapper">
+
+                            <i class="fa-solid fa-calendar-days"></i>
+
+
+                            <select name="month"
+                                    required>
+
+                                <option value="">
+                                    Select Month
+                                </option>
+
+
+                                {% for month in range(1, 13) %}
+
+                                <option value="{{ month }}">
+                                    {{ month }}
+                                </option>
+
+                                {% endfor %}
+
+                            </select>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- DAY -->
+
+                    <div class="input-group">
+
+                        <label>
+                            Day
+                        </label>
+
+
+                        <div class="input-wrapper">
+
+                            <i class="fa-solid fa-calendar-day"></i>
+
+
+                            <input
+                                type="number"
+                                name="day"
+                                min="1"
+                                max="31"
+                                placeholder="1 - 31"
+                                required
+                            >
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- DAY OF WEEK -->
+
+                    <div class="input-group">
+
+                        <label>
+                            Day of Week
+                        </label>
+
+
+                        <div class="input-wrapper">
+
+                            <i class="fa-solid fa-clock"></i>
+
+
+                            <select name="day_of_week"
+                                    required>
+
+                                <option value="">
+                                    Select Day
+                                </option>
+
+                                <option value="0">
+                                    Monday
+                                </option>
+
+                                <option value="1">
+                                    Tuesday
+                                </option>
+
+                                <option value="2">
+                                    Wednesday
+                                </option>
+
+                                <option value="3">
+                                    Thursday
+                                </option>
+
+                                <option value="4">
+                                    Friday
+                                </option>
+
+                                <option value="5">
+                                    Saturday
+                                </option>
+
+                                <option value="6">
+                                    Sunday
+                                </option>
+
+                            </select>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+
+                <!-- BUTTON -->
+
+                <button type="submit"
+                        class="predict-button">
+
+                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+
+                    Predict Demand
+
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </button>
+
+
+            </form>
+
+        </div>
+
+
+
+        <!-- =================================================
+             SIDE PANEL
+        ================================================== -->
+
+        <div class="forecast-side">
+
+
+            <div class="side-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=900&q=85"
+                    alt="Business Analytics"
+                >
+
+
+                <div class="image-overlay">
+
+                    <h3>
+                        Turn Data Into Decisions
+                    </h3>
+
+                    <p>
+                        Understand demand patterns and
+                        make smarter business decisions.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="benefits-card">
+
+                <h3>
+                    What influences demand?
+                </h3>
+
+
+                <div class="benefit">
+
+                    <div class="benefit-icon">
+
+                        <i class="fa-solid fa-tag"></i>
+
+                    </div>
+
+
+                    <div>
+
+                        <strong>
+                            Price & Discount
+                        </strong>
+
+                        <p>
+                            Understand pricing impact.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="benefit">
+
+                    <div class="benefit-icon">
+
+                        <i class="fa-solid fa-cloud-sun"></i>
+
+                    </div>
+
+
+                    <div>
+
+                        <strong>
+                            Weather & Season
+                        </strong>
+
+                        <p>
+                            Identify seasonal patterns.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="benefit">
+
+                    <div class="benefit-icon">
+
+                        <i class="fa-solid fa-bullhorn"></i>
+
+                    </div>
+
+
+                    <div>
+
+                        <strong>
+                            Promotions
+                        </strong>
+
+                        <p>
+                            Measure promotion impact.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="benefit">
+
+                    <div class="benefit-icon">
+
+                        <i class="fa-solid fa-chart-line"></i>
+
+                    </div>
+
+
+                    <div>
+
+                        <strong>
+                            Market Trends
+                        </strong>
+
+                        <p>
+                            Analyze market changes.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+    <!-- =================================================
+         RESULT
+    ================================================== -->
+
+    {% if prediction %}
+
+    <div class="prediction-result">
+
+
+        <div class="success-icon">
+
+            <i class="fa-solid fa-check"></i>
+
+        </div>
+
+
+        <div>
+
+            <span>
+                FORECAST RESULT
+            </span>
+
+
+            <h2>
+                {{ prediction }}
+            </h2>
+
+
+            <p>
+                Estimated units of demand
+            </p>
+
+        </div>
+
+
+        <div class="result-status">
+
+            <i class="fa-solid fa-chart-line"></i>
+
+            Prediction Generated
+
+        </div>
+
+
+    </div>
+
+    {% endif %}
+
+
+
+    <!-- ERROR -->
+
+    {% if error %}
+
+    <div class="error-result">
+
+        <i class="fa-solid fa-circle-exclamation"></i>
+
+
+        <div>
+
+            <strong>
+                Prediction Error
+            </strong>
+
+
+            <p>
+                {{ error }}
+            </p>
+
+        </div>
+
+    </div>
+
+    {% endif %}
+
+
+</section>
+
+
+
+<!-- =====================================================
+     FEATURES
+===================================================== -->
+
+<section class="features"
+         id="features">
+
+
+    <div class="section-heading">
+
+        <span>
+            WHY DEMANDIQ?
+        </span>
+
+
+        <h2>
+            Smart Forecasting Made Simple
+        </h2>
+
+
+        <p>
+            A machine learning solution designed
+            to understand and predict product demand.
+        </p>
+
+    </div>
+
+
+
+    <div class="feature-grid">
+
+
+        <div class="feature-card">
+
+            <div class="feature-icon">
+
+                <i class="fa-solid fa-brain"></i>
+
+            </div>
+
+
+            <h3>
+                Machine Learning
+            </h3>
+
+
+            <p>
+                Uses Random Forest Regression to
+                estimate product demand.
+            </p>
+
+        </div>
+
+
+
+        <div class="feature-card">
+
+            <div class="feature-icon">
+
+                <i class="fa-solid fa-chart-simple"></i>
+
+            </div>
+
+
+            <h3>
+                Data Driven
+            </h3>
+
+
+            <p>
+                Uses historical product, pricing,
+                seasonal and market information.
+            </p>
+
+        </div>
+
+
+
+        <div class="feature-card">
+
+            <div class="feature-icon">
+
+                <i class="fa-solid fa-gauge-high"></i>
+
+            </div>
+
+
+            <h3>
+                Fast Prediction
+            </h3>
+
+
+            <p>
+                Generate predictions instantly
+                using the trained model.
+            </p>
+
+        </div>
+
+
+
+        <div class="feature-card">
+
+            <div class="feature-icon">
+
+                <i class="fa-solid fa-display"></i>
+
+            </div>
+
+
+            <h3>
+                Simple Interface
+            </h3>
+
+
+            <p>
+                Clean and easy-to-use interface
+                for entering business information.
+            </p>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     HOW IT WORKS
+===================================================== -->
+
+<section class="how-section">
+
+
+    <div class="section-heading">
+
+        <span>
+            HOW IT WORKS
+        </span>
+
+
+        <h2>
+            From Data to Demand Prediction
+        </h2>
+
+    </div>
+
+
+
+    <div class="steps">
+
+
+        <div class="step">
+
+            <div class="step-number">
+                01
+            </div>
+
+
+            <i class="fa-solid fa-database"></i>
+
+
+            <h3>
+                Historical Data
+            </h3>
+
+
+            <p>
+                Historical demand and business
+                data are collected.
+            </p>
+
+        </div>
+
+
+
+        <div class="step">
+
+            <div class="step-number">
+                02
+            </div>
+
+
+            <i class="fa-solid fa-gears"></i>
+
+
+            <h3>
+                Data Processing
+            </h3>
+
+
+            <p>
+                Data is cleaned and prepared
+                for machine learning.
+            </p>
+
+        </div>
+
+
+
+        <div class="step">
+
+            <div class="step-number">
+                03
+            </div>
+
+
+            <i class="fa-solid fa-brain"></i>
+
+
+            <h3>
+                ML Model
+            </h3>
+
+
+            <p>
+                Random Forest learns patterns
+                from historical data.
+            </p>
+
+        </div>
+
+
+
+        <div class="step">
+
+            <div class="step-number">
+                04
+            </div>
+
+
+            <i class="fa-solid fa-chart-line"></i>
+
+
+            <h3>
+                Prediction
+            </h3>
+
+
+            <p>
+                The system predicts expected
+                product demand.
+            </p>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     ABOUT
+===================================================== -->
+
+<section class="about"
+         id="about">
+
+
+    <div class="about-container">
+
+
+        <div class="about-image">
+
+            <img
+                src="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=900&q=85"
+                alt="Data Analytics Team"
+            >
+
+        </div>
+
+
+
+        <div class="about-content">
+
+            <span>
+                ABOUT THE PROJECT
+            </span>
+
+
+            <h2>
+                Making Demand Forecasting
+                More Intelligent
+            </h2>
+
+
+            <p>
+                DemandIQ is a machine learning based
+                demand forecasting application designed
+                to help businesses estimate future
+                product demand.
+            </p>
+
+
+            <p>
+                The system considers important factors
+                such as product category, region, price,
+                discount, promotion, weather, seasonality
+                and competitor pricing.
+            </p>
+
+
+
+            <div class="about-points">
+
+
+                <div>
+
+                    <i class="fa-solid fa-check-circle"></i>
+
+                    Data preprocessing
+
+                </div>
+
+
+                <div>
+
+                    <i class="fa-solid fa-check-circle"></i>
+
+                    Machine learning prediction
+
+                </div>
+
+
+                <div>
+
+                    <i class="fa-solid fa-check-circle"></i>
+
+                    Business-focused insights
+
+                </div>
+
+
+                <div>
+
+                    <i class="fa-solid fa-check-circle"></i>
+
+                    User-friendly interface
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer>
+
+
+    <div class="footer-container">
+
+
+        <div class="footer-logo">
+
+            <div class="logo-icon">
+
+                <i class="fa-solid fa-chart-line"></i>
+
+            </div>
+
+
+            Demand<span>IQ</span>
+
+        </div>
+
+
+        <p>
+            Machine Learning Based Demand Forecasting
+        </p>
+
+
+        <div class="footer-line"></div>
+
+
+        <p class="copyright">
+
+            © 2026 DemandIQ.
+            Demand Forecasting Project.
+
+        </p>
+
+
+    </div>
+
+
+</footer>
+
+
+</body>
+
+</html>
+```
